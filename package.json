@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "proyectopersonal",
   "author": "arminfigo",
-  "email": "arminfigueroa@gmail.com",
+  "author": {
+    "name": "Armin",
+    "email": "arminfigueroa@gmail.com"
+},
   "license": "ISC",
   "devDependencies": {
     "eslint": "^5.1.0",
