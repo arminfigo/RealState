@@ -2,11 +2,8 @@
   "name": "RealState",
   "version": "1.0.0",
   "description": "proyectopersonal",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "arminfigo",
+  "email": "arminfigueroa@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^5.1.0",
