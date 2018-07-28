@@ -1,0 +1,105 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: roboto, sans-serif;
+    line-height: 20px;
+  
+}
+header {
+    position: fixed;
+    background-color: cadetblue;
+    margin-top: 0px;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    margin-left: 15px;
+    float: left;
+}
+
+.btn-rgt {
+    margin-right: 0;
+    flex: 1;
+    text-align: right;
+    margin-right: 60px;
+    text-decoration: none;
+}
+/* Menú desplegable */
+
+.menu {
+    list-style-type: none;
+}
+.menu li {
+    margin: 15px 10px;
+    width: 140px;
+    list-style-type: none;
+}
+li a {
+    background-color: darkcyan;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+}
+.submenu {
+    display: none;
+    margin-top: 120px;
+}
+.menu li:hover .submenu {
+    display: block;
+}
+.submenu li:hover {
+    display: block;
+}
+
+/* aquí inicia el searchbox */
+.search-box {
+    padding-top: 50px;
+    height: 600px;
+    background-image: url("../img/img-03.jpg");  
+    opacity: 0.8; 
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    background-color: rgba(0,0,0, 0.3);
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -100px;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.main li {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 24px;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 35px;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-style: inherit;
+    font-weight: 400;
+    margin-top: -25px;
+
+}
+
+

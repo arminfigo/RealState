@@ -5,11 +5,14 @@
   "author": {
     "name": "Armin",
     "email": "arminfigueroa@gmail.com"
-},
+  },
   "license": "ISC",
   "devDependencies": {
     "eslint": "^5.1.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
